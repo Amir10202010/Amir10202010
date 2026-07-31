@@ -14,7 +14,7 @@ you a stamp and nothing else.
 
 | | What it is | Built with |
 |---|---|---|
-| **[Velnox](https://github.com/Amir10202010/flo)** · [usevelnox.com](https://www.usevelnox.com) | An AI layer over your own Gmail: explainable triage, risk alerts, review-before-send drafts, and a knowledge graph that builds itself from mail, calendar and notes | Next.js · TypeScript · Prisma · Supabase · Gemini |
+| **[Velnox](https://github.com/Amir10202010/velnox)** · [usevelnox.com](https://www.usevelnox.com) | An AI layer over your own Gmail: explainable triage, risk alerts, review-before-send drafts, and a knowledge graph that builds itself from mail, calendar and notes | Next.js · TypeScript · Prisma · Supabase · Gemini |
 | **[BEKINGED](https://github.com/Amir10202010/bekinged)** · [live](https://bekinged.vercel.app) | Checkers as a daily competitive habit — a rules engine, a minimax AI opponent with alpha-beta pruning, and realtime multiplayer on a separate Socket.IO server | Next.js · Socket.IO · Prisma · Postgres |
 | **[pharma-store](https://github.com/Amir10202010/pharma-store)** | REST API for an online pharmacy — JWT auth, prescription-flagged catalogue, cart, orders and checkout across nine feature slices | Go · Gin · GORM · Postgres |
 | **[ImpactLab](https://github.com/Amir10202010/ImpactLab)** · [live](https://impact-lab-blue.vercel.app) | Site for a youth initiative running healthcare hackathons for students in Kazakhstan | Next.js · Tailwind · Motion |
@@ -23,7 +23,7 @@ you a stamp and nothing else.
 
 ### Engineering I'm glad to be asked about
 
-Most of these live in [Velnox](https://github.com/Amir10202010/flo), the project I've put the most into:
+Most of these live in [Velnox](https://github.com/Amir10202010/velnox), the project I've put the most into:
 
 - **Slow work never blocks a request.** Sync, AI analysis, embeddings and outbound email are rows
   in a Postgres job queue, claimed atomically with `SELECT … FOR UPDATE SKIP LOCKED` and drained
@@ -55,3 +55,4 @@ students, developers and doctors together in Astana.
 
 - **sagindiktar@gmail.com**
 - Telegram — [@Idk_Amir](https://t.me/Idk_Amir)
+- [LinkedIn](https://www.linkedin.com/in/amirkhan-sagyndyk-36760a368/)
