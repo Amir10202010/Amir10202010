@@ -156,23 +156,6 @@ Most of these live in [Velnox](https://github.com/Amir10202010/velnox), the proj
 
 ---
 
-### 📊 GitHub stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Amir10202010&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0f1b2d&title_color=ffa630&icon_color=5fe08a&text_color=e6edf3&border_radius=0" alt="stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amir10202010&layout=compact&langs_count=8&hide_border=true&bg_color=0f1b2d&title_color=ffa630&text_color=e6edf3&border_radius=0" alt="langs"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Amir10202010&hide_border=true&border_radius=0&background=0f1b2d&ring=ffa630&fire=ffa630&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=5fe08a&sideLabels=5fe08a&dates=8aa0b8&stroke=1b2b45" alt="streak"/>
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Amir10202010&bg_color=0f1b2d&color=e6edf3&title_color=ffa630&line=5fe08a&point=ffa630&area=true&area_color=2f7a4e&hide_border=true&radius=0" alt="activity"/>
-</p>
-
-### 🐍 Contribution snake
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amir10202010/Amir10202010/output/github-snake-dark.svg"/>
