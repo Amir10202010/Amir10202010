@@ -1,40 +1,58 @@
-Hi, I'm Amirkhan. Full-stack dev from Astana.
+## Amirkhan Sagyndyk
 
-Mostly Next.js, TypeScript and Postgres. Sometimes Go, Python, or C++ on an ESP32.
-Working on [Velnox](https://www.usevelnox.com) right now. It sorts your Gmail by which clients need a reply today.
+**Full-stack developer — Next.js and TypeScript on the front, Postgres and background workers behind it.**
+Astana, Kazakhstan · open to full-stack roles.
 
-```console
-$ git log --reverse --oneline
+I ship whole products rather than screens: auth, database, sync, queues, deploy. The projects
+below are live, not slide decks — you can open them, sign in and click around.
 
-2024-09  kahoot-bot      Kahoot-style quiz bot for my class in Telegram
-2024-09  dz-bot          homework bot for the class chat
-2024-10  wb-parser-bot   pulls a Wildberries seller's catalogue into Excel
-2025-07  pharma-store    Go + Postgres API for an online pharmacy
-2026-04  Dentist-Ai      YOLO model trained on dental X-rays
-2026-04  VideoMaker-Ai   makes short videos with subtitles from a topic
-2026-05  bekinged        online checkers with a bot and ELO
-2026-06  velnox          Gmail assistant, my main project
-2026-09  DuelBattle      1v1 webcam game over WebRTC
-2026-09  campusproof     LOCUS Startup Hackathon
-2026-10  egiz            NASA Space Apps Challenge 2026
-2026-10  neuromove       team project: web app, ESP32 firmware, hardware
-```
+Most of what I build starts from something that annoyed me or someone near me: a client email
+buried under newsletters, a homework chat nobody could keep up with, a loyalty card that gives
+you a stamp and nothing else.
 
-| | | |
+### Selected projects
+
+| | What it is | Built with |
 |---|---|---|
-| [**velnox**](https://github.com/Amir10202010/velnox)<br/><sub>Next.js, Prisma, Supabase, Gemini</sub><br/><sub>[usevelnox.com](https://www.usevelnox.com)</sub> | [**bekinged**](https://github.com/Amir10202010/bekinged)<br/><sub>Next.js, Socket.IO, Postgres</sub><br/><sub>[bekinged.vercel.app](https://bekinged.vercel.app)</sub> | [**egiz**](https://github.com/Amir10202010/nasa-space-app-2026)<br/><sub>NASA Space Apps 2026</sub><br/><sub>[egiz.vercel.app](https://egiz.vercel.app)</sub> |
-| [**neuromove**](https://github.com/Amir10202010/neuromove)<br/><sub>web, ESP32, hardware</sub><br/><sub>[neuromove-nine.vercel.app](https://neuromove-nine.vercel.app)</sub> | [**pharma-store**](https://github.com/Amir10202010/pharma-store)<br/><sub>Go, Gin, GORM, Postgres</sub> | [**Dentist-Ai**](https://github.com/Amir10202010/Dentist-Ai)<br/><sub>Python, Flask, Ultralytics</sub> |
+| **[Velnox](https://github.com/Amir10202010/velnox)** · [usevelnox.com](https://www.usevelnox.com) | An AI layer over your own Gmail: explainable triage, risk alerts, review-before-send drafts, and a knowledge graph that builds itself from mail, calendar and notes | Next.js · TypeScript · Prisma · Supabase · Gemini |
+| **[BEKINGED](https://github.com/Amir10202010/bekinged)** · [live](https://bekinged.vercel.app) | Checkers as a daily competitive habit — a rules engine, a minimax AI opponent with alpha-beta pruning, and realtime multiplayer on a separate Socket.IO server | Next.js · Socket.IO · Prisma · Postgres |
+| **[pharma-store](https://github.com/Amir10202010/pharma-store)** | REST API for an online pharmacy — JWT auth, prescription-flagged catalogue, cart, orders and checkout across nine feature slices | Go · Gin · GORM · Postgres |
+| **[ImpactLab](https://github.com/Amir10202010/ImpactLab)** · [live](https://impact-lab-blue.vercel.app) | Site for a youth initiative running healthcare hackathons for students in Kazakhstan | Next.js · Tailwind · Motion |
+| **[Dentist-Ai](https://github.com/Amir10202010/Dentist-Ai)** | Dental X-ray analysis — a custom-trained YOLO model returns one annotated image per finding | Python · Flask · Ultralytics |
+| **[VideoMaker-Ai](https://github.com/Amir10202010/VideoMaker-Ai)** | A topic goes in, a finished short video comes out: script, voice, word-level subtitles, burned in by FFmpeg | Python · Gemini · Whisper · FFmpeg |
 
-### Some things in Velnox I can talk about
+### Engineering I'm glad to be asked about
 
-- Background jobs (sync, AI analysis, sending mail) are just rows in Postgres, picked up with `SELECT ... FOR UPDATE SKIP LOCKED`. If Gemini rate-limits, the job retries later.
-- Gmail sync uses `users.watch` and Pub/Sub, then pulls only the changes since the last `historyId`.
-- Search combines a normal SQL keyword match with embedding similarity.
-- The AI can suggest an action, but my own code runs it after you click confirm. It can't send mail by itself.
+Most of these live in [Velnox](https://github.com/Amir10202010/velnox), the project I've put the most into:
 
----
+- **Slow work never blocks a request.** Sync, AI analysis, embeddings and outbound email are rows
+  in a Postgres job queue, claimed atomically with `SELECT … FOR UPDATE SKIP LOCKED` and drained
+  by either a standalone worker or a cron endpoint. Rate-limit errors come back classified as
+  retryable, so the queue's backoff *is* the pacing strategy.
+- **The AI layer is an interface, not an SDK call.** Business logic never imports a vendor SDK, so
+  a deterministic keyword provider can stand in when there's no API key — and the UI labels those
+  results as offline instead of passing them off as real analysis.
+- **Incremental sync, not polling.** Gmail `users.watch` → Pub/Sub → webhook → `historyId` delta
+  sync, with a bounded full-sync fallback for when history expires.
+- **Search that blends two rankings.** Keyword SQL candidates unioned with semantic cosine over
+  conversation embeddings, then scored together — with the ranking math pulled out as pure,
+  testable functions.
+- **The model stays outside the trust boundary.** The assistant only *proposes* an action;
+  deterministic, user-scoped code executes it after an explicit confirm, and none of it can send mail.
 
-<sub>Astana, Kazakhstan · looking for full-stack work ·
-<a href="mailto:sagindiktar@gmail.com">sagindiktar@gmail.com</a> ·
-<a href="https://t.me/Idk_Amir">telegram</a> ·
-<a href="https://www.linkedin.com/in/amirkhan-sagyndyk-36760a368/">linkedin</a></sub>
+### Stack
+
+**Daily:** TypeScript · Next.js · React · Node · Postgres · Prisma · Tailwind
+**Comfortable in:** Python (Flask, aiogram) · Go (Gin, GORM) · Supabase · Socket.IO · Docker-less Vercel deploys
+**Have shipped with:** Gemini · Whisper · YOLO / Ultralytics · Google APIs (Gmail, Calendar, Books) · Arduino / C++
+
+### Beyond the editor
+
+I built the site for **ImpactLab** — healthcare hackathons, webinars and trainings that bring
+students, developers and doctors together in Astana.
+
+### Reach me
+
+- **sagindiktar@gmail.com**
+- Telegram — [@Idk_Amir](https://t.me/Idk_Amir)
+- [LinkedIn](https://www.linkedin.com/in/amirkhan-sagyndyk-36760a368/)
