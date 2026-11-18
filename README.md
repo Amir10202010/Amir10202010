@@ -1,5 +1,3 @@
-<img src="assets/header.svg" width="100%" alt="Amirkhan Sagyndyk — Astana skyline at night"/>
-
 I build whole products, not screens — auth, database, sync, queues, deploy.
 Almost everything below started as something that annoyed me or someone near me.
 
