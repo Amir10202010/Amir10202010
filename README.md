@@ -102,6 +102,8 @@ Dental X-ray analysis — a custom-trained YOLO model returns one annotated imag
 ![Flask](https://img.shields.io/badge/-Flask-1b2b45?style=flat-square&logo=flask&logoColor=5fe08a)
 ![YOLO](https://img.shields.io/badge/-YOLO-1b2b45?style=flat-square&logo=ultralytics&logoColor=5fe08a)
 
+🌐 [dentist-ai-zeta.vercel.app](https://dentist-ai-zeta.vercel.app)
+
 </td>
 </tr>
 <tr>
