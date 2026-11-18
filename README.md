@@ -41,13 +41,13 @@ const amirkhan = {
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/YOLO_/_Ultralytics-111F68?style=flat-square&logo=ultralytics&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Gmail_API-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
-  <img src="https://img.shields.io/badge/aiogram-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gemini-1b2b45?style=flat-square&logo=googlegemini&logoColor=5fe08a"/>
+  <img src="https://img.shields.io/badge/Whisper-1b2b45?style=flat-square&logo=openai&logoColor=5fe08a"/>
+  <img src="https://img.shields.io/badge/YOLO_/_Ultralytics-1b2b45?style=flat-square&logo=ultralytics&logoColor=5fe08a"/>
+  <img src="https://img.shields.io/badge/Socket.IO-1b2b45?style=flat-square&logo=socketdotio&logoColor=5fe08a"/>
+  <img src="https://img.shields.io/badge/FFmpeg-1b2b45?style=flat-square&logo=ffmpeg&logoColor=5fe08a"/>
+  <img src="https://img.shields.io/badge/Gmail_API-1b2b45?style=flat-square&logo=gmail&logoColor=5fe08a"/>
+  <img src="https://img.shields.io/badge/aiogram-1b2b45?style=flat-square&logo=telegram&logoColor=5fe08a"/>
 </p>
 
 ---
@@ -61,24 +61,24 @@ const amirkhan = {
 #### ✉️ [Velnox](https://github.com/Amir10202010/velnox)
 An AI layer over your own Gmail — explainable triage, risk alerts, review-before-send drafts and a self-building knowledge graph.
 
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs)
-![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma)
-![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-1b2b45?style=flat-square&logo=nextdotjs&logoColor=5fe08a)
+![Prisma](https://img.shields.io/badge/-Prisma-1b2b45?style=flat-square&logo=prisma&logoColor=5fe08a)
+![Supabase](https://img.shields.io/badge/-Supabase-1b2b45?style=flat-square&logo=supabase&logoColor=5fe08a)
+![Gemini](https://img.shields.io/badge/-Gemini-1b2b45?style=flat-square&logo=googlegemini&logoColor=5fe08a)
 
 🌐 [usevelnox.com](https://www.usevelnox.com)
 
 </td>
 <td width="50%" valign="top">
 
-#### ♟️ [BEKINGED](https://github.com/Amir10202010/bekinged)
-Checkers as a daily competitive habit — rules engine, minimax AI with alpha-beta pruning, ELO and realtime multiplayer.
+#### 🌕 [Egiz](https://github.com/Amir10202010/egiz)
+NASA Space Apps 2026. Searches the whole Earth for places that resemble a lunar south-pole base or a Mars landing site, and shows where each analogy breaks.
 
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs)
-![Socket.IO](https://img.shields.io/badge/-Socket.IO-010101?style=flat-square&logo=socketdotio)
-![Postgres](https://img.shields.io/badge/-Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-1b2b45?style=flat-square&logo=typescript&logoColor=5fe08a)
+![Python](https://img.shields.io/badge/-Python-1b2b45?style=flat-square&logo=python&logoColor=5fe08a)
+![NASA data](https://img.shields.io/badge/-NASA_data-1b2b45?style=flat-square&logo=nasa&logoColor=5fe08a)
 
-🌐 [bekinged.vercel.app](https://bekinged.vercel.app)
+🌐 [egiz.vercel.app](https://egiz.vercel.app)
 
 </td>
 </tr>
@@ -88,9 +88,9 @@ Checkers as a daily competitive habit — rules engine, minimax AI with alpha-be
 #### 💊 [pharma-store](https://github.com/Amir10202010/pharma-store)
 REST API for an online pharmacy — JWT auth, prescription-flagged catalogue, cart, orders and Stripe checkout.
 
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Gin](https://img.shields.io/badge/-Gin-008ECF?style=flat-square&logo=gin&logoColor=white)
-![Postgres](https://img.shields.io/badge/-Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-1b2b45?style=flat-square&logo=go&logoColor=5fe08a)
+![Gin](https://img.shields.io/badge/-Gin-1b2b45?style=flat-square&logo=gin&logoColor=5fe08a)
+![Postgres](https://img.shields.io/badge/-Postgres-1b2b45?style=flat-square&logo=postgresql&logoColor=5fe08a)
 
 </td>
 <td width="50%" valign="top">
@@ -98,33 +98,35 @@ REST API for an online pharmacy — JWT auth, prescription-flagged catalogue, ca
 #### 🦷 [Dentist-Ai](https://github.com/Amir10202010/Dentist-Ai)
 Dental X-ray analysis — a custom-trained YOLO model returns one annotated image per finding.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000?style=flat-square&logo=flask)
-![YOLO](https://img.shields.io/badge/-YOLO-111F68?style=flat-square&logo=ultralytics)
+![Python](https://img.shields.io/badge/-Python-1b2b45?style=flat-square&logo=python&logoColor=5fe08a)
+![Flask](https://img.shields.io/badge/-Flask-1b2b45?style=flat-square&logo=flask&logoColor=5fe08a)
+![YOLO](https://img.shields.io/badge/-YOLO-1b2b45?style=flat-square&logo=ultralytics&logoColor=5fe08a)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 🎬 [VideoMaker-Ai](https://github.com/Amir10202010/VideoMaker-Ai)
-A topic goes in, a finished short video comes out: script, voice, word-level subtitles burned in by FFmpeg.
+#### 🧠 [NeuroMove](https://github.com/Amir10202010/neuromove)
+Team project: a web app that analyses movement from IMU sensors, plus the ESP32 device itself, firmware and 3D-printed case.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/-FFmpeg-007808?style=flat-square&logo=ffmpeg)
+![TypeScript](https://img.shields.io/badge/-TypeScript-1b2b45?style=flat-square&logo=typescript&logoColor=5fe08a)
+![ESP32](https://img.shields.io/badge/-ESP32-1b2b45?style=flat-square&logo=espressif&logoColor=5fe08a)
+![C++](https://img.shields.io/badge/-C++-1b2b45?style=flat-square&logo=cplusplus&logoColor=5fe08a)
+
+🌐 [neuromove-nine.vercel.app](https://neuromove-nine.vercel.app)
 
 </td>
 <td width="50%" valign="top">
 
-#### 🩺 [ImpactLab](https://github.com/Amir10202010/ImpactLab)
-Site for a youth initiative running healthcare hackathons, webinars and trainings for students in Kazakhstan.
+#### ⚔️ [DuelBattle](https://github.com/Amir10202010/DuelBattle)
+1v1 webcam game: both players get the same task, show the item on camera, and the server decides who answered better. Ranked queue, friend rooms, Telegram Mini App.
 
-![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs)
-![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Motion](https://img.shields.io/badge/-Motion-FF0055?style=flat-square&logo=framer&logoColor=white)
+![React](https://img.shields.io/badge/-React-1b2b45?style=flat-square&logo=react&logoColor=5fe08a)
+![WebRTC](https://img.shields.io/badge/-WebRTC-1b2b45?style=flat-square&logo=webrtc&logoColor=5fe08a)
+![SQLite](https://img.shields.io/badge/-SQLite-1b2b45?style=flat-square&logo=sqlite&logoColor=5fe08a)
 
-🌐 [impact-lab-blue.vercel.app](https://impact-lab-blue.vercel.app)
+🌐 [duel-battle.onrender.com](https://duel-battle.onrender.com)
 
 </td>
 </tr>
