@@ -1,20 +1,20 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:6a3de8,100:00d4ff&height=220&section=header&text=Amirkhan%20Sagyndyk&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-stack%20developer%20%C2%B7%20Astana%2C%20Kazakhstan&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="header"/>
+  <img src="assets/header.gif" width="100%" alt="Pixel-art Baiterek tower in Astana at night, snow falling"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/Amir10202010">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=8B7CF6&center=true&vCenter=true&width=620&lines=I+ship+whole+products%2C+not+screens;Auth+%C2%B7+DB+%C2%B7+sync+%C2%B7+queues+%C2%B7+deploy;Building+Velnox+%E2%80%94+an+AI+layer+over+Gmail;Open+to+full-stack+roles+%F0%9F%9A%80" alt="typing"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&weight=400&size=15&duration=3000&pause=800&color=FFA630&center=true&vCenter=true&width=720&height=40&lines=I+ship+whole+products%2C+not+screens;Auth+%C2%B7+DB+%C2%B7+sync+%C2%B7+queues+%C2%B7+deploy;Building+Velnox+%E2%80%94+an+AI+layer+over+Gmail;Open+to+full-stack+roles" alt="typing"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.usevelnox.com"><img src="https://img.shields.io/badge/Velnox-usevelnox.com-6a3de8?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://t.me/Idk_Amir"><img src="https://img.shields.io/badge/Telegram-@Idk__Amir-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/amirkhan-sagyndyk-36760a368/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:sagindiktar@gmail.com"><img src="https://img.shields.io/badge/Email-Write_me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Amir10202010&style=for-the-badge&color=00d4ff&label=PROFILE+VIEWS" alt="views"/>
+  <a href="https://www.usevelnox.com"><img src="https://img.shields.io/badge/Velnox-usevelnox.com-0f1b2d?style=for-the-badge&logo=gmail&logoColor=ffa630&labelColor=1b2b45"/></a>
+  <a href="https://t.me/Idk_Amir"><img src="https://img.shields.io/badge/Telegram-@Idk__Amir-0f1b2d?style=for-the-badge&logo=telegram&logoColor=5fe08a&labelColor=1b2b45"/></a>
+  <a href="https://www.linkedin.com/in/amirkhan-sagyndyk-36760a368/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0f1b2d?style=for-the-badge&logo=linkedin&logoColor=5fe08a&labelColor=1b2b45"/></a>
+  <a href="mailto:sagindiktar@gmail.com"><img src="https://img.shields.io/badge/Email-Write_me-0f1b2d?style=for-the-badge&logo=gmail&logoColor=ffa630&labelColor=1b2b45"/></a>
+  <img src="https://komarev.com/ghpvc/?username=Amir10202010&style=for-the-badge&color=0f1b2d&label=PROFILE+VIEWS" alt="views"/>
 </p>
 
 ---
@@ -157,16 +157,16 @@ Most of these live in [Velnox](https://github.com/Amir10202010/velnox), the proj
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Amir10202010&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8b7cf6&icon_color=00d4ff&text_color=c9d1d9" alt="stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amir10202010&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=8b7cf6&text_color=c9d1d9" alt="langs"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Amir10202010&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0f1b2d&title_color=ffa630&icon_color=5fe08a&text_color=e6edf3&border_radius=0" alt="stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amir10202010&layout=compact&langs_count=8&hide_border=true&bg_color=0f1b2d&title_color=ffa630&text_color=e6edf3&border_radius=0" alt="langs"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Amir10202010&theme=tokyonight&hide_border=true&background=0d1117&ring=8b7cf6&fire=00d4ff&currStreakLabel=8b7cf6" alt="streak"/>
+  <img src="https://streak-stats.demolab.com?user=Amir10202010&hide_border=true&border_radius=0&background=0f1b2d&ring=ffa630&fire=ffa630&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=5fe08a&sideLabels=5fe08a&dates=8aa0b8&stroke=1b2b45" alt="streak"/>
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Amir10202010&bg_color=0d1117&color=c9d1d9&line=8b7cf6&point=00d4ff&area=true&area_color=6a3de8&hide_border=true" alt="activity"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Amir10202010&bg_color=0f1b2d&color=e6edf3&title_color=ffa630&line=5fe08a&point=ffa630&area=true&area_color=2f7a4e&hide_border=true&radius=0" alt="activity"/>
 </p>
 
 ### 🐍 Contribution snake
@@ -185,4 +185,4 @@ Most of these live in [Velnox](https://github.com/Amir10202010/velnox), the proj
   <i>Beyond the editor: I built the site for <b>ImpactLab</b> — healthcare hackathons that bring students, developers and doctors together in Astana.</i>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:6a3de8,100:0f0c29&height=120&section=footer" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1b2d,50:1f4d3a,100:0f1b2d&height=6&section=footer" width="100%" alt="footer"/>
