@@ -99,7 +99,7 @@ REST API for an online pharmacy — JWT auth, prescription-flagged catalogue, ca
 Dental X-ray analysis — a custom-trained YOLO model returns one annotated image per finding.
 
 ![Python](https://img.shields.io/badge/-Python-1b2b45?style=flat-square&logo=python&logoColor=5fe08a)
-![Flask](https://img.shields.io/badge/-Flask-1b2b45?style=flat-square&logo=flask&logoColor=5fe08a)
+![FastAPI](https://img.shields.io/badge/-FastAPI-1b2b45?style=flat-square&logo=fastapi&logoColor=5fe08a)
 ![YOLO](https://img.shields.io/badge/-YOLO-1b2b45?style=flat-square&logo=ultralytics&logoColor=5fe08a)
 
 🌐 [dentist-ai-zeta.vercel.app](https://dentist-ai-zeta.vercel.app)
